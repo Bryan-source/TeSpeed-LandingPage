@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <a href="https://api.whatsapp.com/send?phone=+523312900619" class="btn-wsp" target="_blank">
+	    <i class="fa fa-whatsapp icono"></i>
+	</a>
+    <header id="home" class="header">
+        <div class="overlay">
+            <div class="nav">
+                <div class="navbar contenedor"> 
+                    <a href="/">
+                        <img src="build/img/logo_speed.svg" alt="Logotipo Speed">
+                    </a>
+                    <!-- <h1>SPEED</h1> -->
+                    <nav id="navigation" class="navigation">
+                        <ul>
+                            <li><a href="#home"><i class="fa fa-home site-nav--icon"></i>Home</a></li>
+                            <li><a href="#about"><i class="fa fa-info site-nav--icon"></i>Acerca</a></li>
+                            <li><a href="#services"><i class="fas fa-concierge-bell site-nav--icon"></i>Servicios</a></li>
+                            <li><a href="#clients"><i class="fas fa-building site-nav--icon"></i>Clientes</a></li>
+                            <li><a href="#contact"><i class="fa fa-envelope site-nav--icon"></i>Contacto</a></li>
+                        </ul>
+                    </nav>
+                   
+                    <div id="menu-toggle" class="menu-toggle" onClick="sideBarActive()">
+                        <div class="hamburger"></div>
+                    </div>
+                </div><!-- barra -->
+            </div>
+            
+    
+            <div class="contenedor contenido-header">
+                
+                <div class="image-logo">
+                    <picture>
+                        <img loading="lazy" src="build/img/logo_speed.svg" alt="Texto Entrada Blog">
+                    </picture>
+                </div>
+    
+                <h4>TECNOLOGÍA ESPECIALIZADA SPEED</h4>
+                                    
+                <h1 class="title">Reparación de equipo electrónico industrial</h1>           
+                <p>Nos especializamos en fuentes de potencia, variadores de velocidad, inyectoras de plástico, UPS, reguladores, impresoras, equipos de computo de todas las marcas.</p> <!-- Para el área industrial  -->
+                <div class="buttons-header">
+                    <a href="#contact" class="button-primary">Cotiza con nosotros</a>
+                    <a href="#services" class="button-transparent">Nuestros Servicios</a>
+                </div>
+            </div>
+        </div>
+        
+        
+    </header>
+
+    <main > <!-- class="aboutUs-background" JS--> 
+        
+        <div id="about" class="aboutUs">
+            <div class="aboutUs-description ">
+                <h2>Tecnología Especializada Speed</h2>
+                <div class="aboutUs-p">Contamos con ingenieros y técnicos certificados, con herramientas especializadas para todo tipo de reparación y mantenimieno, con más de 10 años en el mercado, avanzando junto con la tecnología.
+                </div>
+
+                <div class="aboutUs-objective">
+                    <div>
+                        <p class="aboutUs-p"><strong>Objetivo</strong></p>
+                        <p class="aboutUs-p">Mantener siempre a los clientes satisfechos con los servicios proporcionados de cualquier tipo en la industria. Implementación de soluciones para el cliente, si necesitas un proyecto para tu empresa cuentas con nuestros conocimientos para la implementación de la ingeniería para hacerlo realidad.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="aboutUs-background">
+                <picture>
+                    <source srcset="build/img/aboutUs.jpg" type="image/webp">
+                    <source srcset="build/img/aboutUs.jpg" type="image/jpeg">
+                    <img loading="lazy" src="build/img/aboutUs.jpg" alt="anuncio">
+                </picture>
+            </div>
+            
+            
+        </div>       
+    </main>
+
+    <section id="services"  class="section contenedor">
+        <div class="service-header">
+            <h2>Productos y Servicios</h2>
+            <p>Tomamos muy en cuenta la calidad y precio de nuestro trabajo y compromiso, además de reparaciones, también contamos con una alta gama de proveedores para venta de equipos, refacciones, servicios en locación y soluciones al cliente.</p>
+
+        </div>
+        
+        <div class="services">
+            <div class="service">
+                <picture>
+                    <source srcset="build/img/Services/Service1.webp" type="image/webp">
+                    <source srcset="build/img/Services/Service1.jpg" type="image/jpeg">
+                    <img loading="lazy" src="build/img/Services/Service1.jpg" alt="anuncio">
+                </picture>
+
+                <div class="service-detail">
+                    <table>
+                        <tr>
+                            <th> <h3>Servicio de reparación de equipo electrónico industrial</h3></th>
+                        </tr>                        
+                        <tr>
+                            <td><p>Variadores, tarjetas electronicas, Plc's, computadoras de proceso.</p></td>
+                        </tr>
+                    </table>                   
+                </div>
+            </div>
+            
+            <div class="service">
+                <picture>
+                    <source srcset="build/img/Services/Service2.webp" type="image/webp">
+                    <source srcset="build/img/Services/Service2.jpg" type="image/jpeg">
+                    <img loading="lazy" src="build/img/Services/Service2.jpg" alt="anuncio">
+                </picture>
+
+                <div class="service-detail">
+                    <table>
+                        <tr>
+                            <th> <h3>Servicio a UPS</h3></th>
+                        </tr>
+                        <tr>
+                            <td><p>Venta, mantenimiento, reparación e instalación de ups de pequeña, mediana y gran capacidad.</p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>      
+        </div>
+        <div class="services">
+            <div class="service">
+                <picture>
+                    <source srcset="build/img/Services/Service3.webp" type="image/webp">
+                    <source srcset="build/img/Services/Service3.jpg" type="image/jpeg">
+                    <img loading="lazy" src="build/img/Services/Service3.jpg" alt="anuncio">
+                </picture>
+
+                <div class="service-detail">
+                    <table>
+                        <tr>
+                            <th><h3>Servicio de mantenimiento y reparación</h3></th>
+                        </tr>
+                        <tr>
+                            <td><p>Equipo de cómputo, periféricos, pantallas.</p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="service">
+                <picture>
+                    <source srcset="build/img/Services/Service4.webp" type="image/webp">
+                    <source srcset="build/img/Services/Service4.jpg" type="image/jpeg">
+                    <img loading="lazy" src="build/img/Services/Service4.jpg" alt="anuncio">
+                </picture>
+
+                <div class="service-detail">
+                    <table>
+                        <tr>
+                            <th><h3>Servicios de instalación de tierras físicas</h3></th>
+                        </tr>
+                        <tr>
+                            <td><p>Ups y máquinas industriales. </p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="service-end">
+            
+            <div class="service-product">
+                
+                   <div class="overlay">
+                        <div class="service-detail">
+                            <table>
+                                <tr>
+                                    <th><h3>PRODUCTOS EN VENTA</h3></th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Tarjetas electrónicas</p>
+                                        <p>Variadores</p>
+                                        <p>Ups</p>
+                                        <p>Baterías para Ups</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="align-center">
+                            <a href="#contact" class="button-third">Solicita información</a>
+                        </div>
+                                       
+                   </div>                                   
+            </div>
+   
+        </div>
+
+        <!-- <div class="align-right">
+            <a href="#contact" class="button-third">Solicita información</a>
+        </div> -->
+    </section>
+    <section id="clients" class="background-section">
+        <div class="clients-group contenedor">
+            <div class="clients-header">
+                <h1>Nuestros Clientes</h1>
+            </div>
+            <div class="clients">
+                <div class="image">
+                    <picture>
+                        <source srcset="build/img/Clients/Emerson-logo.webp" type="image/webp">
+                        <source srcset="build/img/Clients/Emerson-logo.png" type="image/jpeg">
+                        <img loading="lazy" src="build/img/Clients/Emerson-logo.png" alt="Texto Entrada Blog">
+                    </picture>
+                </div>
+                <div class="image">
+                    <picture>
+                        <source srcset="build/img/Clients/Famsa-logo.webp" type="image/webp">
+                        <source srcset="build/img/Clients/Famsa-logo.png" type="image/jpeg">
+                        <img loading="lazy" src="build/img/Clients/Famsa-logo.png" alt="Texto Entrada Blog">
+                    </picture>
+                </div>
+                <div class="image">
+                    <picture>
+                        <source srcset="build/img/Clients/Hershey's-logo.webp" type="image/webp">
+                        <source srcset="build/img/Clients/Hershey's-logo.png" type="image/jpeg">
+                        <img loading="lazy" src="build/img/Clients/Hershey's-logo.png" alt="Texto Entrada Blog">
+                    </picture>
+                </div>
+                <div class="image">
+                    <picture>
+                        <source srcset="build/img/Clients/Gelpharma-logo.webp" type="image/webp">
+                        <source srcset="build/img/Clients/Gelpharma-logo.png" type="image/jpeg">
+                        <img loading="lazy" src="build/img/Clients/Gelpharma-logo.png" alt="Texto Entrada Blog">
+                    </picture>
+                </div>
+                <div class="image">
+                    <picture>
+                        <source srcset="build/img/Clients/Hella-logo.webp" type="image/webp">
+                        <source srcset="build/img/Clients/Hella-logo.png" type="image/jpeg">
+                        <img loading="lazy" src="build/img/Clients/Hella-logo.png" alt="Texto Entrada Blog">
+                    </picture>
+                </div>
+                <div class="image">
+                    <picture>
+                        <source srcset="build/img/Clients/SunningdaleTech-logo.webp" type="image/webp">
+                        <source srcset="build/img/Clients/SunningdaleTech-logo.png" type="image/jpeg">
+                        <img loading="lazy" src="build/img/Clients/SunningdaleTech-logo.png" alt="Texto Entrada Blog">
+                    </picture>
+                </div>
+                <div class="image">
+                    <picture>
+                        <source srcset="build/img/Clients/Urrea-logo.webp" type="image/webp">
+                        <source srcset="build/img/Clients/Urrea-logo.png" type="image/jpeg">
+                        <img loading="lazy" src="build/img/Clients/Urrea-logo.png" alt="Texto Entrada Blog">
+                    </picture>
+                </div>
+                <div class="image">
+                    <picture>
+                        <source srcset="build/img/Clients/Cmd-logo.webp" type="image/webp">
+                        <source srcset="build/img/Clients/Cmd-logo.png" type="image/jpeg">
+                        <img loading="lazy" src="build/img/Clients/Cmd-logo.png" alt="Texto Entrada Blog">
+                    </picture>
+                </div>
+            </div>
+            
+
+    </section>
+    <section id="contact" class="contenedor section form-section">
+
+        <div class="form-header">
+            <h1>Contacto</h1>
+            <h3>Asesoría, cotización y venta</h3>
+            <p>Estamos para ayudarte, utiliza el formulario de contacto y en breve responderemos tu mensaje.</p>
+        </div>
+        <div class="form-items">
+            <h3>TECNOLOGÍA ESPECIALIZADA SPEED S.A. de C.V.</h3>
+            <div class="form-itemsContact">
+                <div class="item-contact">
+                    <i class="fas fa-phone fa-3x"></i>
+                    <h3>Teléfono</h3>
+                    <p>(01-33) 36336262</p>
+                </div>
+                <div class="item-contact">
+                    <i class="fab fa-whatsapp fa-3x"></i>
+                    <h3>WhatsApp</h3>
+                    <p>3312900619</p>
+                </div>
+                <div class="item-contact">
+                    <i class="fas fa-envelope fa-3x"></i>
+                    <h3>Email</h3>
+                    <p>teigeiro44@hotmail.com</p>
+                </div>
+                <div class="item-contact">
+                    <i class="fas fa-map-marker-alt fa-3x"></i>
+                    <h3>Dirección</h3>
+                    <p>Zarape # 190 Colonia el Vigía Zapopan, Jalisco. México, CP:45140</p>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="form-Maps ">
+            <form class="form-fill">
+                <fieldset>
+                    <legend>Información Personal</legend>
+    
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Tu Nombre" id="nombre">
+    
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="Tu Email" id="email">
+    
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" placeholder="Tu Teléfono" id="telefono">
+    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje"></textarea>
+                </fieldset>            
+                   
+                <input type="submit" value="Enviar" class="button-primary btn-form">
+            </form>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.408177613177!2d-103.39597794946536!3d20.734243703075062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af9825def939%3A0xca080636ae13b7b8!2sCalle%20Zarape%20190%2C%20El%20Vig%C3%ADa%2C%2045140%20Zapopan%2C%20Jal.!5e0!3m2!1ses!2smx!4v1621971753672!5m2!1ses!2smx"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        
+    </section>
+    <footer>
+        <div class="contenedor container-footer">
+
+        </div>
+        <p class="copyright">&copy; 2021 Tecnología Especializada Speed | <span><a href="#">Aviso de privacidad </a></span></p>
+    </footer>
+
+    
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
