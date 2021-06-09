@@ -12,7 +12,7 @@
 <body>
     <a href="https://api.whatsapp.com/send?phone=+523312900619" class="btn-wsp" target="_blank">
 	    <i class="fa fa-whatsapp icono"></i>
-	</a>
+    </a >
     <header id="home" class="header">
         <div class="overlay">
             <div class="nav">
@@ -308,24 +308,28 @@
 
 
         <div class="form-Maps ">
-            <form class="form-fill" name="contact" netlify>
+            <form class="form-fill" id="form" name="contact" netlify> 
                 <fieldset>
                     <legend>Información Personal</legend>
-    
-                    <label for="nombre">Nombre</label>
-                    <input type="text" placeholder="Tu Nombre" id="nombre" name="name">
-    
-                    <label for="email">E-mail</label>
+                        
+                    <label for="nombre">Nombre*</label>
+                    <span class="text-danger error" id="errorname"></span>
+                    <input type="text" placeholder="Tu Nombre" id="name" name="name">
+                        
+                    <label for="email">E-mail*</label>
+                    <span class="text-danger error" id="erroremail"></span>
                     <input type="email" placeholder="Tu Email" id="email" name="email">
-    
+                        
                     <label for="telefono">Teléfono</label>
-                    <input type="tel" placeholder="Tu Teléfono" id="telefono" name="number">
+                    <input type="tel" placeholder="Tu Teléfono" id="phone" name="number">
     
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="message"></textarea>
+                    <label for="mensaje">Mensaje:*</label>
+                    <span class="text-danger error" id="errormessage"></span>
+                    <textarea id="menssage" name="message"></textarea>
+                    
                 </fieldset>            
                    
-                <input type="submit" value="Enviar" class="button-primary btn-form">
+                <input type="submit" value="Enviar" class="button-primary btn-form" onclick="return validar(this.form)">
             </form>
             <div class="maps">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.408177613177!2d-103.39597794946536!3d20.734243703075062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af9825def939%3A0xca080636ae13b7b8!2sCalle%20Zarape%20190%2C%20El%20Vig%C3%ADa%2C%2045140%20Zapopan%2C%20Jal.!5e0!3m2!1ses!2smx!4v1621971753672!5m2!1ses!2smx"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -338,7 +342,7 @@
         <div class="contenedor container-footer">
 
         </div>
-        <p class="copyright">&copy; 2021 Tecnología Especializada Speed | <span><a href="#">Aviso de privacidad </a></span></p>
+        <p class="copyright">&copy; 2021 Tecnología Especializada Speed | <span><a href="privacidad.html">Aviso de privacidad </a></span></p>
     </footer>
 
     
