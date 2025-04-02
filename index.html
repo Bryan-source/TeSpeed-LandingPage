@@ -11,7 +11,7 @@
 </head>
 <body>
     <a href="https://wa.me/523312900619/?text=Solicito%20información" class="btn-wsp" target="_blank">
-	    <i class="fa fa-whatsapp icono"></i>
+	    <i class="fab fa-whatsapp icono"></i>
     </a >
     <header id="home" class="header">
         <div class="overlay">
@@ -340,13 +340,17 @@
         
     </section>
     <footer>
-        <div class="contenedor container-footer">
+    <div class="contenedor container-footer">
+    </div>
 
-        </div>
-        <p class="copyright">&copy; 2022 Tecnología Especializada Speed | <span><a href="privacidad.html">Aviso de privacidad </a></span></p>
-    </footer>
-
-    
-    <script src="build/js/bundle.min.js"></script>
+    <p class="copyright">
+      &copy; <span id="currentYear"></span> Tecnología Especializada Speed | 
+      <span><a href="privacidad.html">Aviso de privacidad</a></span>
+    </p>
+  </footer>
+  <script src="build/js/bundle.min.js"></script>
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
